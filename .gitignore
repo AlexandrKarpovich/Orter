@@ -1,0 +1,97 @@
+# ==========================================
+# 🔒 СЕКРЕТЫ И ОКРУЖЕНИЕ (Самое важное)
+# ==========================================
+.env
+.env.*
+!.env.example
+*.pem
+storage/*.pem
+*.key
+*.crt
+*.p12
+
+# ==========================================
+# 🧠 IDE и редакторы (GigaIDE, PhpStorm, VS Code)
+# ==========================================
+.idea/
+.gigaidea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.project
+.settings/
+.classpath
+_ide_helper.php
+_ide_helper_models.php
+.phpstorm.meta.php
+
+# ==========================================
+# 🐘 PHP / Laravel
+# ==========================================
+/vendor/
+composer.phar
+composer.lock
+/storage/logs/*
+/storage/framework/cache/data/*
+/storage/framework/sessions/*
+/storage/framework/testing/*
+/storage/framework/views/*
+/bootstrap/cache/*
+/public/storage
+/public/hot
+/public/build
+/storage/*.key
+.phpunit.result.cache
+/.phpunit.cache
+.php-cs-fixer.cache
+.php-cs-fixer.php
+homestead.json
+homestead.yaml
+auth.json
+npm-debug.log
+yarn-error.log
+/.fleet
+/.nova
+/.history
+
+# ==========================================
+# 🟩 Node.js / Nuxt / Vue (если будете собирать фронт)
+# ==========================================
+/node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-debug.log*
+.npm
+.eslintcache
+dist/
+.output/
+.nuxt/
+.vite/
+coverage/
+
+# ==========================================
+# 🐳 Docker и базы данных
+# ==========================================
+docker-compose.override.yml
+*.sqlite
+*.sqlite3
+*.db
+data/
+mysql-data/
+pg-data/
+redis-data/
+
+# ==========================================
+# 🗑️ Системный мусор (OS)
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
